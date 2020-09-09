@@ -4,7 +4,8 @@ module SpreeSocial
     %w(Twitter twitter false),
     %w(Github github false),
     %w(Google google_oauth2 true),
-    %w(Amazon amazon false)
+    %w(Amazon amazon false),
+    %w(Line line false)
   ]
 
   class Engine < Rails::Engine
